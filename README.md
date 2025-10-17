@@ -113,9 +113,13 @@ Task-3/
 
 ## 🧾 Screenshots & Verification
 
-### ⚙️ Spring Boot Simulation
+### ⚙️ Spring Boot Simulation and Backend Enabled 
 
 ![Spring Boot Simulation](./Task%203/springboot_simulation.png)
+
+### 🧠 Frontend Successfully Implemented
+
+![Frontend Implemented](./Task%203/Fronted_Succesfully_Implemented.png)
 
 ### 🔗 Connection Established
 
@@ -124,10 +128,6 @@ Task-3/
 ### ⚛️ React App Created
 
 ![React App Created](./Task%203/React_app_creadted.png)
-
-### 🧠 Frontend Successfully Implemented
-
-![Frontend Implemented](./Task%203/Fronted_Succesfully_Implemented.png)
 
 ### ✅ Confirmation of Task Creation
 
