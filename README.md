@@ -129,13 +129,13 @@ Task-3/
 
 ![Frontend Implemented](./Task%203/Fronted_Succesfully_Implemented.png)
 
-### 🆕 Task Created
-
-![Task Created](./Task%203/Task_Created.png)
-
 ### ✅ Confirmation of Task Creation
 
 ![Task Creation Confirmation](./Task%203/Confirmation_of_Task_Creation.png)
+
+### 📋 Tasks Displayed
+
+![Tasks Displayed](./Task%203/Tasks_Created.png)
 
 ### 🗑️ Deleting a Task
 
@@ -145,9 +145,7 @@ Task-3/
 
 ![Task Deletion Confirmed](./Task%203/Task_Deletion_Confirmed.png)
 
-### 📋 Tasks Displayed
 
-![Tasks Displayed](./Task%203/Tasks_Created.png)
 
 ---
 
