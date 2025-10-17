@@ -1,46 +1,171 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```markdown
+# 🧩 Task 3 — React Web UI for Kaiburr Task Manager
 
-## Available Scripts
+This project implements the **frontend (web interface)** for the Kaiburr Task Management Application, built using **React.js**.  
+It connects with the **Spring Boot + MongoDB backend** (from Task 1) to perform CRUD operations — Create, Read, Update, and Delete — on tasks.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎯 Objective
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To design and develop an intuitive **React-based web interface** that communicates with the backend REST API.  
+This UI allows users to interact visually with task data stored in MongoDB.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧰 Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Component | Purpose |
+|------------|----------|
+| **React.js** | Frontend library for building UI |
+| **Axios / Fetch API** | Handling HTTP requests |
+| **Bootstrap / CSS** | Styling and responsive design |
+| **JavaScript (ES6)** | Logic and rendering |
+| **Node.js + npm** | Development and package management |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+✅ Add new tasks  
+✅ View existing tasks  
+✅ Update task details  
+✅ Delete tasks  
+✅ Connects with Spring Boot backend running on `http://localhost:8080/tasks`  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📁 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Task-3/
+│
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+│
+├── src/
+│   ├── components/
+│   │   ├── TaskList.js
+│   │   ├── TaskForm.js
+│   │   └── TaskCard.js
+│   ├── services/
+│   │   └── api.js
+│   ├── App.js
+│   ├── index.js
+│   └── App.css
+│
+├── package.json
+└── README.md
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+````
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## ⚙️ Backend API Integration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| HTTP Method | Endpoint | Description |
+|--------------|-----------|--------------|
+| `GET` | `/tasks` | Retrieve all tasks |
+| `PUT` | `/tasks` | Create or update a task |
+| `GET` | `/tasks/{id}` | Retrieve a specific task |
+| `DELETE` | `/tasks/{id}` | Delete a task |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+## 🚀 How to Run the Application
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sara1220-up/Kaiburr_Task_3.git
+   cd Kaiburr_Task_3
+````
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+4. Access the app in your browser at:
+   👉 [http://localhost:3000](http://localhost:3000)
+
+> ⚠️ Make sure your **Task 1 backend** is running on `http://localhost:8080` before starting the frontend.
+
+---
+
+## 🧠 Workflow Overview
+
+1. **Backend Connection** — The React frontend uses Axios to fetch data from the Spring Boot API.
+2. **Data Rendering** — Tasks are displayed dynamically using reusable components.
+3. **State Management** — Managed through React hooks (`useState`, `useEffect`).
+4. **User Interaction** — Any changes reflect instantly in the UI and MongoDB.
+
+---
+
+## 🧾 Screenshots & Verification
+
+### ⚙️ Spring Boot Simulation
+
+![Spring Boot Simulation](./Task%203/springboot_simulation.png)
+
+### 🔗 Connection Established
+
+![Connection Successful](./Task%203/connection%20was%20done.png)
+
+### ⚛️ React App Created
+
+![React App Created](./Task%203/React_app_creadted.png)
+
+### 🧠 Frontend Successfully Implemented
+
+![Frontend Implemented](./Task%203/Fronted_Succesfully_Implemented.png)
+
+### 🆕 Task Created
+
+![Task Created](./Task%203/Task_Created.png)
+
+### ✅ Confirmation of Task Creation
+
+![Task Creation Confirmation](./Task%203/Confirmation_of_Task_Creation.png)
+
+### 🗑️ Deleting a Task
+
+![Deleting Task](./Task%203/deleting_task.png)
+
+### ❌ Task Deletion Confirmed
+
+![Task Deletion Confirmed](./Task%203/Task_Deletion_Confirmed.png)
+
+### 📋 Tasks Displayed
+
+![Tasks Displayed](./Task%203/Tasks_Created.png)
+
+---
+
+## 🧩 Outcome
+
+✅ React app successfully connected to Spring Boot backend
+✅ CRUD operations verified from UI and database
+✅ Clean and interactive task management interface built
+
+---
+
+## 👩‍💻 Author
+
+**Sarayu Mandadi**
+📦 Kaiburr Internship — Task 3 Submission
+📧 GitHub: [Sara1220-up](https://github.com/Sara1220-up)
+
+```
+
+
+Would you like me to prepare **Task 2’s README** in the same clean format (with Docker + Kubernetes image references)?
