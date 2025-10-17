@@ -168,4 +168,4 @@ Task-3/
 ```
 
 
-Would you like me to prepare **Task 2’s README** in the same clean format (with Docker + Kubernetes image references)?
+
